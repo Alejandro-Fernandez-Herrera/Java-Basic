@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EjercicioDeClasificacionfunciones",
+            "request": "launch",
+            "mainClass": "estructurasDeControl.EjercicioDeClasificacionfunciones",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
             "name": "EjercicioDeClasificacion",
             "request": "launch",
             "mainClass": "estructurasDeControl.EjercicioDeClasificacion",
