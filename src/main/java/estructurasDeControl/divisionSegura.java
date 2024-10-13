@@ -12,13 +12,12 @@ public class divisionSegura {
 
         try {
             int resultado = numero1 / numero2;
-            System.out.println("el resultado es: "+resultado);
+            System.out.println("el resultado es: " + resultado);
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e);
         } catch (Exception e) {
-            System.out.println("otro error");        }
+            System.out.println("otro error");
+        }
+        scanner.close();
     }
-
-
-
 }

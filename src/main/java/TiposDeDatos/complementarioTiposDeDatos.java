@@ -11,13 +11,13 @@ Utiliza la función System.out.println() para imprimir cada variable declarada, 
 
 public class complementarioTiposDeDatos {
     public static void main(String[] args) {
-        
+
         String mensajeBienvenida = "-Bienvenido a Java-.";
         float temperaturaActual = 19L;
         boolean datoLogico = true;
 
-        System.out.println("Hola, este ejercicio es complementario, un mensaje de bienvenida es -String- " + mensajeBienvenida + " la temperatura podría ser float al tener decimales " + temperaturaActual + " y los datos logicos son verdadero y falso " + datoLogico);
+        System.out.println("Hola, este ejercicio es complementario, un mensaje de bienvenida es -String- "
+                + mensajeBienvenida + " la temperatura podría ser float al tener decimales " + temperaturaActual
+                + " y los datos logicos son verdadero y falso " + datoLogico);
     }
 }
-
-

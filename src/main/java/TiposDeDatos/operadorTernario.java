@@ -9,7 +9,7 @@ public class operadorTernario {
         System.out.print("ingresa el segundo numero: ");
         float num2 = scanner.nextFloat();
 
-        String resultado = (num1 % num2) == 0 ? "es divisible.":"no es divisible";
+        String resultado = (num1 % num2) == 0 ? "es divisible." : "no es divisible";
         System.out.println(resultado);
 
         scanner.close();

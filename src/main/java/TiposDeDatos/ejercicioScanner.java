@@ -8,17 +8,18 @@ Luego imprime en pantalla un mensaje que diga “Su nombres es [nombre del usuar
 
 import java.util.Scanner;
 
-
 public class ejercicioScanner {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // se instancia con scanner, podría llamarse de cualquier forma, pero es importante que sea claro
+        Scanner scanner = new Scanner(System.in); // se instancia con scanner, podría llamarse de cualquier forma, pero
+                                                  // es importante que sea claro
 
         System.out.println("ingresa tu nombre: ");
-        String nombre = scanner.nextLine(); //especial atención al caseSensitive de Java -> es Line es con mayúscula en la 'L'!!!
+        String nombre = scanner.nextLine(); // especial atención al caseSensitive de Java -> es Line es con mayúscula en
+                                            // la 'L'!!!
         System.out.println("su nombre es: " + nombre);
 
         System.out.println("ingresa tu edad: ");
-        int edad = scanner.nextInt(); 
+        int edad = scanner.nextInt();
         System.out.println("su edad es: " + edad);
 
         System.out.println("su nombre es: " + nombre + " y su edad es: " + edad);
@@ -28,5 +29,6 @@ public class ejercicioScanner {
 }
 
 /*
- * next solo leerá hasta que encuentre un espacio, es mejor ocupar nextline para que lea hasta que sea pulsado el enter!!!
+ * next solo leerá hasta que encuentre un espacio, es mejor ocupar nextline para
+ * que lea hasta que sea pulsado el enter!!!
  */

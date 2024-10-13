@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EjercicioDeClasificacion",
+            "request": "launch",
+            "mainClass": "estructurasDeControl.EjercicioDeClasificacion",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "BloqueConIfElse",
+            "request": "launch",
+            "mainClass": "estructurasDeControl.BloqueConIfElse",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "complementarioTiposDeDatos",
+            "request": "launch",
+            "mainClass": "complementarioTiposDeDatos",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "declararVariables",
+            "request": "launch",
+            "mainClass": "declararVariables",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "ejercicioScanner",
+            "request": "launch",
+            "mainClass": "ejercicioScanner",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "divisionSegura",
+            "request": "launch",
+            "mainClass": "estructurasDeControl.divisionSegura",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "leerDatos",
+            "request": "launch",
+            "mainClass": "leerDatos",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "miPrimerPrograma",
+            "request": "launch",
+            "mainClass": "miPrimerPrograma",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "operacionesAritmeticas",
+            "request": "launch",
+            "mainClass": "operacionesAritmeticas",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "operadorTernario",
+            "request": "launch",
+            "mainClass": "operadorTernario",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "operadoresDeComparacion",
+            "request": "launch",
+            "mainClass": "operadoresDeComparacion",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "tiposDeDatos",
+            "request": "launch",
+            "mainClass": "tiposDeDatos",
+            "projectName": "Java-Basic_8deb133c"
+        }
+    ]
+}

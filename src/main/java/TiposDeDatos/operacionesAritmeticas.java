@@ -25,4 +25,4 @@ public class operacionesAritmeticas {
     }
 }
 
-//pendiente un bloque try-catch para el denominador en cero
+// pendiente un bloque try-catch para el denominador en cero
