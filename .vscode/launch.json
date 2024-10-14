@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "verificarDiaHabil",
+            "request": "launch",
+            "mainClass": "estructurasDeControl.verificarDiaHabil",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
             "name": "EjercicioDeClasificacionfunciones",
             "request": "launch",
             "mainClass": "estructurasDeControl.EjercicioDeClasificacionfunciones",
