@@ -4,6 +4,13 @@ Escribe un programa que solicite al usuario ingresar una cadena de caracteres qu
 
 package EstructuraTryCatch;
 
+import java.util.Scanner;
+
 public class ConversionCadenaEntero {
-  
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+
+    scanner.close();
+  }
 }

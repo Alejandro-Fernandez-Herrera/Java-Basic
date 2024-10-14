@@ -23,7 +23,7 @@ public class DivisionSegura {
     } catch (ArithmeticException e) {
       e.printStackTrace();
       System.out.println("error aritmetico, no dividir entre 0" + e.getMessage());
-      // el video del ejemplo relaciona el inputmismatch, pero al ingresar un tipo de dato diferente ni siquiera llega a ésta parte del codigo...
+      // el video del ejemplo relaciona el inputmismatch, pero al ingresar un tipo de dato diferente ni siquiera llega a ésta parte del codigo... en ese caso, debería ingresar el try al solicitar el input? - R. correcto!
     } catch (InputMismatchException e) {
       e.printStackTrace();
       System.out.println("error de ingreso, tipo de dato no coincide" + e.getMessage());
