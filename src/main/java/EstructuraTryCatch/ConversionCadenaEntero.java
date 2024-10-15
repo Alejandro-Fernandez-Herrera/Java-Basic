@@ -10,7 +10,16 @@ public class ConversionCadenaEntero {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
+    System.out.print("Ingresa una cadena de caracteres que represente un número entero: ");
+    String entrada = scanner.nextLine();
 
-    scanner.close();
+    try {
+      int numero = Integer.parseInt(entrada);
+      System.out.println("El número ingresado es: " + numero);
+    } catch (NumberFormatException e) {
+      System.out.println("Error: la cadena ingresada no es un número entero válido.");
+    } finally {
+      scanner.close();
+    }
   }
 }
