@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "registroAlumnos",
+            "request": "launch",
+            "mainClass": "integrador.registroAlumnos",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
+            "name": "diligenciarArrays",
+            "request": "launch",
+            "mainClass": "Arrays.diligenciarArrays",
+            "projectName": "Java-Basic_8deb133c"
+        },
+        {
+            "type": "java",
             "name": "DivisionSeguraSegundaIteracion",
             "request": "launch",
             "mainClass": "EstructuraTryCatch.DivisionSeguraSegundaIteracion",
